@@ -145,11 +145,9 @@
                         android:id="@+id/imageView7"
                         android:layout_width="match_parent"
                         android:layout_height="262dp"
-                        app:srcCompat="@drawable/gallery2"
+                        app:srcCompat="@drawable/veri4"
                         tools:layout_editor_absoluteX="-8dp"
                         tools:layout_editor_absoluteY="22dp" />
-
-
 
             <TextView
                 android:id="@+id/textView8"
@@ -231,7 +229,7 @@
                 android:paddingLeft="10px"
                 android:autoLink="all"
                 android:clickable="true"
-                android:text="Ganesh Complex,Chandanagar Main Road, Hyderabad-500050."
+                android:text="Ganesh Complex,Chandanagar ,Hyderabad-500050."
                 android:textAllCaps="false"
                 android:textSize="14sp"
                 android:textStyle="bold"
