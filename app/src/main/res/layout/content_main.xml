@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ScrollView
+        android:layout_width="412dp"
+        android:layout_height="728dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="177dp"
+                android:layout_height="82dp"
+                app:srcCompat="@drawable/logo"
+                tools:layout_editor_absoluteX="-2dp"
+                tools:layout_editor_absoluteY="5dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                app:srcCompat="@drawable/projectimage1"
+                tools:layout_editor_absoluteX="-8dp"
+                tools:layout_editor_absoluteY="22dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="139dp"
+                android:layout_height="26dp"
+                android:paddingLeft="5px"
+                android:text="About Us"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="6dp"
+                tools:layout_editor_absoluteY="318dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="381dp"
+                android:layout_height="155dp"
+                android:paddingLeft="10px"
+                android:text="We as team have got rich cross-functional experience in apartments, layouts and farm layouts, ours is a consistently growing company since 2006, having untiring vision to offer a blend of profitable products, striking the balance between the quality, high standards and affordability, we have got large product range as our projects are very versatile which caters the needs of complete society and engrossed buyers. Our strength lies in our long-standing and complete dedication of our best in the projects.  "
+                android:textStyle="italic"
+                android:typeface="sans"
+                app:fontFamily="sans-serif-medium"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="347dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:background="#7C03A9F4"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Mission"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0px"
+                android:background="#9F4CAF50"
+                android:paddingLeft="10px"
+                android:text="Our mission is to develop high standards gated communities, layouts, gated farm layouts, resorts, trendsetting apartments with a blend of quality and affordability by adopting new concepts and strategies. "
+                android:typeface="sans"
+                app:fontFamily="sans-serif-medium"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="539dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="20px"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Read more about us at http://www.greetwellproperties.in"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Gallery"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="262dp"
+                        app:srcCompat="@drawable/gallery3"
+                        tools:layout_editor_absoluteX="-8dp"
+                        tools:layout_editor_absoluteY="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="262dp"
+                        app:srcCompat="@drawable/gallery1"
+                        tools:layout_editor_absoluteX="-8dp"
+                        tools:layout_editor_absoluteY="22dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="262dp"
+                        app:srcCompat="@drawable/gallery2"
+                        tools:layout_editor_absoluteX="-8dp"
+                        tools:layout_editor_absoluteY="22dp" />
+
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Contact Us"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Website: http://www.greetwellproperties.in"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Email: info@greetwellproperties.in"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Phone: +91-40-23039999, 7993989999"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="415dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:paddingLeft="5px"
+                android:paddingTop="5px"
+                android:text="Address"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="510dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="414dp"
+                android:layout_height="22dp"
+                android:paddingLeft="10px"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Ganesh Complex,Chandanagar Main Road, Hyderabad-500050."
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="627dp" />
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
